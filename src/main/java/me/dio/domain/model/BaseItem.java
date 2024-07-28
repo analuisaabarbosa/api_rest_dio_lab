@@ -1,5 +1,8 @@
 package me.dio.domain.model;
 
+import jakarta.persistence.MappedSuperclass;
+
+@MappedSuperclass
 public abstract class BaseItem {
     private Long id;
     private String icon;
